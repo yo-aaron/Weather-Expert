@@ -1,10 +1,10 @@
 {
-  "name": "Weather-pro", 
+  "name": "Weather-pro",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yo-aaron.github.io/Weather-pro", 
+  "homepage": "https://yo-aaron.github.io/Weather-pro",
   "scripts": {
-    "build": "next build && next export",
+    "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start"
