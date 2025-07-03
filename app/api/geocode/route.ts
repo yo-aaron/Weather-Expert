@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { type NextRequest, NextResponse } from "next/server";
 
 const API_KEY = process.env.OPENWEATHER_API_KEY;
