@@ -1,8 +1,5 @@
 import { type NextRequest, NextResponse } from "next/server";
 
-// Tell Next.js this route is dynamic (needed for API routes on Vercel)
-export const dynamic = "force-dynamic";
-
 const API_KEY = process.env.OPENWEATHER_API_KEY;
 
 export async function GET(request: NextRequest) {
@@ -33,5 +30,3 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: "Failed to fetch location data" }, { status: 500 });
   }
 }
-
-
