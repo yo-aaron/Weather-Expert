@@ -3,7 +3,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/Weatehr-pro'
+  basePath: '/Weather-pro'
 };
 
 module.exports = nextConfig;
